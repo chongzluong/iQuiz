@@ -2,7 +2,11 @@
 //  AppDelegate.swift
 //  iQuiz-Part1
 //
+<<<<<<< HEAD
 //  Created by Timothy Luong on 5/5/16.
+=======
+//  Created by Timothy Luong on 5/15/16.
+>>>>>>> master
 //  Copyright © 2016 Timothy Luong. All rights reserved.
 //
 

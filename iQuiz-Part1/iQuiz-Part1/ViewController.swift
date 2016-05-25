@@ -2,12 +2,17 @@
 //  ViewController.swift
 //  iQuiz-Part1
 //
+<<<<<<< HEAD
 //  Created by Timothy Luong on 5/5/16.
+=======
+//  Created by Timothy Luong on 5/15/16.
+>>>>>>> master
 //  Copyright © 2016 Timothy Luong. All rights reserved.
 //
 
 import UIKit
 
+<<<<<<< HEAD
 class ViewController: UIViewController, UITableViewDataSource {
     
     let quizzess = [
@@ -23,10 +28,20 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
     }
     
+=======
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+>>>>>>> master
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+<<<<<<< HEAD
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return quizzess.count
@@ -48,5 +63,9 @@ class ViewController: UIViewController, UITableViewDataSource {
         alert.addAction(ok);
         self.presentViewController(alert, animated: true, completion: nil)
     }
+=======
+
+
+>>>>>>> master
 }
 

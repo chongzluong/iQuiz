@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "15338F6A1CE993D700CC0A5A"
+=======
+               BlueprintIdentifier = "15338F491CE992A700CC0A5A"
+>>>>>>> master
                BuildableName = "iQuiz-Part1.app"
                BlueprintName = "iQuiz-Part1"
                ReferencedContainer = "container:iQuiz-Part1.xcodeproj">
@@ -32,7 +36,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "15338F6A1CE993D700CC0A5A"
+=======
+            BlueprintIdentifier = "15338F491CE992A700CC0A5A"
+>>>>>>> master
             BuildableName = "iQuiz-Part1.app"
             BlueprintName = "iQuiz-Part1"
             ReferencedContainer = "container:iQuiz-Part1.xcodeproj">
@@ -55,7 +63,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "15338F6A1CE993D700CC0A5A"
+=======
+            BlueprintIdentifier = "15338F491CE992A700CC0A5A"
+>>>>>>> master
             BuildableName = "iQuiz-Part1.app"
             BlueprintName = "iQuiz-Part1"
             ReferencedContainer = "container:iQuiz-Part1.xcodeproj">
@@ -74,7 +86,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "15338F6A1CE993D700CC0A5A"
+=======
+            BlueprintIdentifier = "15338F491CE992A700CC0A5A"
+>>>>>>> master
             BuildableName = "iQuiz-Part1.app"
             BlueprintName = "iQuiz-Part1"
             ReferencedContainer = "container:iQuiz-Part1.xcodeproj">
