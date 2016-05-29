@@ -13,6 +13,10 @@
 		15338F771CE993D700CC0A5A /* iQuiz_Part1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15338F751CE993D700CC0A5A /* iQuiz_Part1.xcdatamodeld */; };
 		15338F791CE993D700CC0A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15338F781CE993D700CC0A5A /* Assets.xcassets */; };
 		15338F7C1CE993D700CC0A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15338F7A1CE993D700CC0A5A /* LaunchScreen.storyboard */; };
+		15805FA71CFA6CFB00FEA501 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15805FA61CFA6CFB00FEA501 /* SettingsViewController.swift */; };
+		15805FA91CFA707D00FEA501 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15805FA81CFA707D00FEA501 /* QuestionViewController.swift */; };
+		15805FAB1CFA71CB00FEA501 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15805FAA1CFA71CB00FEA501 /* AnswerViewController.swift */; };
+		15805FAD1CFA766E00FEA501 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15805FAC1CFA766E00FEA501 /* ListViewController.swift */; };
 		1582532C1CF5172D00774ECD /* quizCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582532B1CF5172D00774ECD /* quizCell.swift */; };
 		158253301CF526BD00774ECD /* math.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1582532D1CF526BD00774ECD /* math.jpg */; };
 		158253311CF526BD00774ECD /* science.png in Resources */ = {isa = PBXBuildFile; fileRef = 1582532E1CF526BD00774ECD /* science.png */; };
@@ -28,6 +32,10 @@
 		15338F781CE993D700CC0A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15338F7B1CE993D700CC0A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15338F7D1CE993D700CC0A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15805FA61CFA6CFB00FEA501 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		15805FA81CFA707D00FEA501 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		15805FAA1CFA71CB00FEA501 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		15805FAC1CFA766E00FEA501 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1582532B1CF5172D00774ECD /* quizCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quizCell.swift; sourceTree = "<group>"; };
 		1582532D1CF526BD00774ECD /* math.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math.jpg; sourceTree = "<group>"; };
 		1582532E1CF526BD00774ECD /* science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = science.png; sourceTree = "<group>"; };
@@ -69,8 +77,12 @@
 				1582532F1CF526BD00774ECD /* marvel.jpeg */,
 				15338F6E1CE993D700CC0A5A /* AppDelegate.swift */,
 				15338F701CE993D700CC0A5A /* ViewController.swift */,
+				15805FA81CFA707D00FEA501 /* QuestionViewController.swift */,
+				15805FAA1CFA71CB00FEA501 /* AnswerViewController.swift */,
+				15805FA61CFA6CFB00FEA501 /* SettingsViewController.swift */,
 				1582532B1CF5172D00774ECD /* quizCell.swift */,
 				15338F721CE993D700CC0A5A /* Main.storyboard */,
+				15805FAC1CFA766E00FEA501 /* ListViewController.swift */,
 				15338F781CE993D700CC0A5A /* Assets.xcassets */,
 				15338F7A1CE993D700CC0A5A /* LaunchScreen.storyboard */,
 				15338F7D1CE993D700CC0A5A /* Info.plist */,
@@ -154,8 +166,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				15338F711CE993D700CC0A5A /* ViewController.swift in Sources */,
+				15805FAB1CFA71CB00FEA501 /* AnswerViewController.swift in Sources */,
 				15338F6F1CE993D700CC0A5A /* AppDelegate.swift in Sources */,
+				15805FA91CFA707D00FEA501 /* QuestionViewController.swift in Sources */,
 				1582532C1CF5172D00774ECD /* quizCell.swift in Sources */,
+				15805FA71CFA6CFB00FEA501 /* SettingsViewController.swift in Sources */,
+				15805FAD1CFA766E00FEA501 /* ListViewController.swift in Sources */,
 				15338F771CE993D700CC0A5A /* iQuiz_Part1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

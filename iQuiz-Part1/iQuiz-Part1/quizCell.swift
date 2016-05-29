@@ -21,6 +21,8 @@ class quizCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    @IBOutlet weak var answerTitle: UILabel!
+    @IBOutlet weak var questionTitle: UILabel!
     
     @IBOutlet weak var desc: UILabel!
     @IBOutlet weak var title: UILabel!
@@ -41,4 +43,7 @@ class quizCell: UITableViewCell {
             }
         }
     }
+    
+    var index = Int()
+    var answerIndex = Int()
 }
